@@ -62,10 +62,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |  F12  |   #   |  |   |      |       |       |
             // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &KP N7   &KP N9    &KP N9      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &KP N4   &KP N5    &KP N6      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &KP N1   &KP N2    &KP N3      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &KP N1   &KP N0    &KP DOT     &trans
+               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N7   &kp N9    &kp N9      &trans
+               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N4   &kp N5    &kp N6      &trans
+               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N1   &kp N2    &kp N3      &trans
+               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N1   &kp N0    &kp DOT     &trans
               
             >;
         };
