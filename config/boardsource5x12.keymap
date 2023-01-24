@@ -24,10 +24,10 @@
 
 
             bindings = <
-                &kp DEL    &kp N1       &kp Q       &kp W    &kp F      &kp P       &kp B       &kp J   &kp L       &kp U         &kp Y       &kp SEMI
-                &kp TAB    &kp Q        &kp A       &kp R    &kp S      &kp T       &kp G       &kp M   &kp N       &kp E         &kp I       &kp O
-                &kp LSHFT  &kp A        &kp Z       &kp X    &kp C      &kp D       &kp V       &kp K   &kp H       &kp COMMA     &kp DOT     &kp FSLH
-                &kp LCTRL  &kp Z        &kp Z       &kp X    &kp C      &kp BSPACE       &kp LSHFT       &kp SPACE   &kp ENTER       &kp TAB     &kp DOT     &kp APOSTROPHE
+                &kp DEL    &kp N1       &kp Q       &kp W    &kp F      &kp P       &kp B       &kp J       &kp L       &kp U         &kp Y       &kp SEMI
+                &kp TAB    &kp Q        &kp A       &kp R    &kp S      &kp T       &kp G       &kp M       &kp N       &kp E         &kp I       &kp O
+                &kp LSHFT  &kp A        &kp Z       &kp X    &kp C      &kp D       &kp V       &kp K       &kp H       &kp COMMA     &kp DOT     &kp FSLH
+                &kp LCTRL  &kp Z        &kp Z       &kp X    &kp C      &kp BSPC  &kp LSHFT   &kp SPACE   &kp ENTER   &kp TAB       &kp DOT     &kp APOSTROPHE
                
             >;
         };
