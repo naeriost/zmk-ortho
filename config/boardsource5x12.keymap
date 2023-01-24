@@ -32,10 +32,10 @@
 
 
             bindings = <
-                &kp DEL    &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B       &kp J       &kp L       &kp U         &kp Y       &kp APOSTROPHE
-                &kp LC(X)  &kp Q        &kp A       &kp R      &kp S          &kp T                &kp G       &kp M       &kp N       &kp E         &kp I       &kp O
-                &kp LC(C)  &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V       &kp K       &kp H       &kp COMMA     &kp DOT     &kp FSLH
-                &kp LC(V)  &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT   &kp SPACE   &kp ENTER   &kp TAB       &kp DOT     &kp SEMI
+                &kp DEL    &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B       &kp J            &kp L       &kp U         &kp Y       &kp APOSTROPHE
+                &kp LC(X)  &kp Q        &kp A       &kp R      &kp S          &kp T                &kp G       &kp M            &kp N       &kp E         &kp I       &kp O
+                &kp LC(C)  &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V       &kp K            &kp H       &kp COMMA     &kp DOT     &kp FSLH
+                &kp LC(V)  &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT   &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp DOT     &kp SEMI
                
             >;
         };
