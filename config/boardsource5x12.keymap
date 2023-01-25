@@ -56,10 +56,10 @@
 
 
             bindings = <
-                &kp DEL     &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B       &kp J            &kp L       &kp U         &kp Y         &kp APOSTROPHE
-                &kp LC(X)   &kp LC(A)    &kp A       &kp R      &kp S          &kp T                &kp G       &kp M            &kp N       &kp E         &kp I         &kp O
-                &kp LC(C)   &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V       &kp K            &kp H       &kp COMMA     &kp DOT       &kp FSLH
-                &kp LC(V)   &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &td0        &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp MINUS     &kp SEMI
+                &kp DEL     &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B            &kp J            &kp L       &kp U         &kp Y         &kp APOSTROPHE
+                &kp LC(X)   &kp LC(A)    &kp A       &kp R      &kp S          &kp T                &kp G            &kp M            &kp N       &kp E         &kp I         &kp O
+                &kp LC(C)   &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V            &kp K            &kp H       &kp COMMA     &kp DOT       &kp FSLH
+                &kp LC(V)   &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT        &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp MINUS     &kp SEMI
                
             >;
         };
@@ -72,10 +72,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |   F12 | LS(#) |LS(|) |      |       |       |
             // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
-               &bt BT_CLR   &trans   &trans   &trans     &trans      &kp PRCNT    &trans             &trans      &trans           &trans         &trans         &trans     
-               &trans       &trans   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE    &kp AMPS           &kp ASTRK   &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
-               &trans       &trans   &trans   &trans     &trans      &trans       &trans             &trans      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &trans     
-               &trans       &trans   &trans   &trans     &trans      &trans       &mt LC(BSPC) BSPC  &trans      &trans           &trans         &trans         &trans     
+               &bt BT_CLR   &trans   &trans   &trans     &trans      &kp PRCNT           &trans         &trans      &trans           &trans         &trans         &trans     
+               &trans       &trans   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE           &kp AMPS       &kp ASTRK   &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
+               &trans       &trans   &trans   &trans     &trans      &trans              &trans         &trans      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &trans     
+               &trans       &trans   &trans   &trans     &trans      &mt LC(BSPC) BSPC   &kp CAPS       &trans      &trans           &trans         &trans         &trans     
             >;
         };
         raise_layer {
