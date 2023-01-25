@@ -32,10 +32,10 @@
 
 
             bindings = <
-                &kp DEL    &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B       &kp J            &kp L       &kp U         &kp Y       &kp APOSTROPHE
-                &kp LC(X)  &kp Q        &kp A       &kp R      &kp S          &kp T                &kp G       &kp M            &kp N       &kp E         &kp I       &kp O
-                &kp LC(C)  &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V       &kp K            &kp H       &kp COMMA     &kp DOT     &kp FSLH
-                &kp LC(V)  &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT   &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp DOT     &kp SEMI
+                &kp DEL     &kp N1       &kp Q       &kp W      &kp F          &kp P                &kp B       &kp J            &kp L       &kp U         &kp Y         &kp APOSTROPHE
+                &kp LC(X)   &kp LC(A)    &kp A       &kp R      &kp S          &kp T                &kp G       &kp M            &kp N       &kp E         &kp I         &kp O
+                &kp LC(C)   &kp A        &kp Z       &kp X      &kp C          &kp D                &kp V       &kp K            &kp H       &kp COMMA     &kp DOT       &kp FSLH
+                &kp LC(V)   &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT   &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp MINUS     &kp SEMI
                
             >;
         };
@@ -49,7 +49,7 @@
             // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
                &bt BT_CLR   &trans   &trans   &trans     &trans      &kp PRCNT    &trans             &trans      &trans           &trans         &trans         &trans     
-               &trans       &trans   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE    &kp AMPS           &kp ASTRK   &kp NUHS         &kp EXCL       &kp LPAR       &kp RPAR       
+               &trans       &trans   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE    &kp AMPS           &kp ASTRK   &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
                &trans       &trans   &trans   &trans     &trans      &trans       &trans             &trans      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &trans     
                &trans       &trans   &trans   &trans     &trans      &trans       &mt LC(BSPC) BSPC  &trans      &trans           &trans         &trans         &trans     
             >;
@@ -62,10 +62,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |  F12  |   #   |  |   |      |       |       |
             // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N7   &kp N9    &kp N9      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N4   &kp N5    &kp N6      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N1   &kp N2    &kp N3      &trans
-               &trans       &trans   &trans   &trans     &trans      &trans   &trans       &trans   &kp N1   &kp N0    &kp DOT     &trans
+               &trans       &trans   &trans   &kp HOME      &kp UP      &kp END        &kp C_VOL_UP         &kp C_NEXT        &kp N7         &kp N8    &kp N9      &kp KP_MULTIPLY
+               &trans       &trans   &trans   &kp LEFT      &kp DOWN    &kp RIGHT      &kp C_VOL_DN         &kp C_PREV        &kp N4         &kp N5    &kp N6      &kp KP_DIVIDE
+               &trans       &trans   &trans   &kp LC(LEFT)  &trans      &kp LC(RIGHT)  &kp C_MUTE           &kp C_PLAY_PAUSE  &kp N1         &kp N2    &kp N3      &kp PLUS
+               &trans       &trans   &trans   &trans        &trans      &trans         &mt LC(BSPC) BSPC    &kp SPACE         &kp KP_EQUAL   &kp N0    &kp DOT     &kp MINUS
               
             >;
         };
