@@ -72,10 +72,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |   F12 | LS(#) |LS(|) |      |       |       |
             // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
-               &bt BT_CLR   &trans   &trans   &trans     &trans      &kp PRCNT           &trans         &trans      &trans           &trans         &trans         &trans     
-               &trans       &trans   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE           &kp AMPS       &kp ASTRK   &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
-               &trans       &trans   &trans   &trans     &trans      &trans              &trans         &trans      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &trans     
-               &trans       &trans   &trans   &trans     &trans      &mt LC(BSPC) BSPC   &trans        &trans      &trans           &trans         &trans         &trans     
+               &bt BT_CLR   &none   &none    &none      &none       &kp PRCNT           &none        &none       &none           &none          &none          &none     
+               &none        &none   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE           &kp AMPS     &kp ASTRK   &kp HASH        &kp EXCL       &kp LPAR       &kp RPAR       
+               &none        &none   &none    &none      &none       &trans              &none        &none       &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2   &none     
+               &none        &none   &none    &none      &none       &mt LC(BSPC) BSPC   &none        &none       &none           &none          &none          &none     
             >;
         };
         raise_layer {
@@ -86,10 +86,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |  F12  |   #   |  |   |      |       |       |
             // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
-               &trans       &trans   &trans   &kp HOME      &kp UP      &kp END            &kp C_VOL_UP     &kp C_NEXT        &kp N7         &kp N8    &kp N9      &kp KP_MULTIPLY
-               &trans       &trans   &trans   &kp LEFT      &kp DOWN    &kp RIGHT          &kp C_VOL_DN     &kp C_PREV        &kp N4         &kp N5    &kp N6      &kp KP_DIVIDE
-               &trans       &trans   &trans   &kp LC(LEFT)  &trans      &kp LC(RIGHT)      &kp C_MUTE       &kp C_PLAY_PAUSE  &kp N1         &kp N2    &kp N3      &kp PLUS
-               &trans       &trans   &trans   &trans        &trans      &mt LC(BSPC) BSPC   &mt LSHFT CAPS         &kp SPACE         &kp EQUAL      &kp N0    &kp DOT     &kp MINUS
+               &none       &none   &none   &kp HOME      &kp UP      &kp END             &kp C_VOL_UP     &kp C_NEXT        &kp N7         &kp N8    &kp N9      &kp KP_MULTIPLY
+               &none       &none   &none   &kp LEFT      &kp DOWN    &kp RIGHT           &kp C_VOL_DN     &kp C_PREV        &kp N4         &kp N5    &kp N6      &kp KP_DIVIDE
+               &none       &none   &none   &kp LC(LEFT)  &none       &kp LC(RIGHT)       &kp C_MUTE       &kp C_PLAY_PAUSE  &kp N1         &kp N2    &kp N3      &kp PLUS
+               &none       &none   &none   &none         &none       &mt LC(BSPC) BSPC   &mt LSHFT CAPS   &kp SPACE         &kp EQUAL      &kp N0    &kp DOT     &kp MINUS
               
             >;
         };
