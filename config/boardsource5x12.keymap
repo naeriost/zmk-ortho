@@ -59,7 +59,7 @@
                 &kp DEL     &kp ESC      &kp Q       &kp W      &kp F          &kp P                &kp B            &kp J            &kp L       &kp U         &kp Y         &kp APOSTROPHE
                 &kp LC(X)   &kp LC(A)    &kp A       &kp R      &kp S          &kp T                &kp G            &kp M            &kp N       &kp E         &kp I         &kp O
                 &kp LC(C)   &kp LCTRL    &kp Z       &kp X      &kp C          &kp D                &kp V            &kp K            &kp H       &kp COMMA     &kp DOT       &kp FSLH
-                &kp LC(V)   &kp LCTRL    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT        &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp MINUS     &kp SEMI
+                &kp LC(V)   &kp ENTER    &kp LC(S)   &kp LALT   &mo LOWER      &mt LC(BSPC) BSPC    &kp LSHFT        &lt RAISE SPACE  &kp ENTER   &kp TAB       &kp MINUS     &kp SEMI
                
             >;
         };
@@ -72,10 +72,10 @@
             // |       |  F7  |  F8  |  F9  |  F10 |  F11 |   F12 | LS(#) |LS(|) |      |       |       |
             // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
-               &bt BT_CLR   &none   &none   &none     &none      &kp PRCNT           &none         &none      &none           &none         &kp LWIN         &none     
-               &none       &none   &kp AT   &kp CARET  &kp DOLLAR  &kp TILDE           &kp AMPS       &kp ASTRK   &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
-               &none       &none   &none   &none     &none      &none              &none         &none      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &none     
-               &none       &none   &none   &none     &none      &mt LC(BSPC) BSPC   &none        &none      &none           &none         &none         &none     
+               &bt BT_CLR   &none   &none   &none      &kp LC(F)   &kp PRCNT           &kp BSLH      &none      &none            &none          &kp LWIN       &none     
+               &none        &none   &kp AT  &kp CARET  &kp DOLLAR  &kp TILDE           &kp AMPS      &kp ASTRK  &kp HASH         &kp EXCL       &kp LPAR       &kp RPAR       
+               &none        &none   &none   &none      &none       &none               &kp PIPE2     &none      &none            &none          &none          &kp BSLH     
+               &none        &none   &none   &none      &none       &mt LC(BSPC) BSPC   &none         &none      &bt BT_SEL 0     &bt BT_SEL 1   &bt BT_SEL 2   &none     
             >;
         };
         raise_layer {
